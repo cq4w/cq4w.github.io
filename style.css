@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ .nav ul {
+    display: flex;
+    flex: row;
+    margin: 0;
+    padding: 0;
+ }
+.nav li {
+    margin-left: 20px;
+ }
+#logo {
+    text-align: left;
+    margin-left: 10px;
+ }
+
+
+.nav a {
+    text-decoration: none;
+}
+
+.logo {
+ width: 140;
+}
+
+.options a {
+   text-decoration: none;
+}
+
+.container button {
+   height: 175px;
+   width: 175px;
+   border-radius: 12px;
+}
